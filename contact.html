@@ -1,99 +1,169 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Contact</title>
-<link rel="stylesheet" href="style.css">
-
-<!-- Icons Library -->
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Samruddhi Jain</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
 <body>
 
+<!-- Navbar -->
 <nav class="navbar">
-<h2 class="logo">Samruddhi Jain</h2>
-
-<ul class="nav-links">
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="projects.html">Projects</a></li>
-<li><a href="skills.html">Skills</a></li>
-<li><a href="qualification.html">Qualification</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
+  <h2 class="logo">Samruddhi Jain</h2>
+  
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="qualification.html">Education</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
 </nav>
 
+<!-- Contact Section -->
 <div class="container">
+  <h1 class="section-title">Get In Touch</h1>
 
-<h2>Contact</h2>
+  <div style="max-width: 1000px; margin: 0 auto; margin-top: 3rem;">
 
-<!-- Contact Icons -->
+    <div style="text-align: center; margin-bottom: 3rem;">
+      <h2 style="color: #0f172a; font-size: 1.5rem; margin-bottom: 1rem;">Let's Connect!</h2>
+      <p style="color: #64748b; font-size: 1.05rem; line-height: 1.8;">
+        I'm always interested in hearing about new projects, opportunities, and interesting ideas. 
+        Whether you want to discuss collaboration, internship opportunities, or just say hello, feel free to reach out!
+      </p>
+    </div>
 
-<div class="contact-icons">
+    <!-- Contact Cards -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
 
-<a href="mailto:samruddhij1603@gmail.com">
-<i class="fa-solid fa-envelope"></i>
-</a>
+      <!-- Email Card -->
+      <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 2rem; text-align: center; transition: all 0.3s ease; cursor: pointer;" 
+           onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 12px 30px rgba(59, 130, 246, 0.15)'; this.style.borderColor='#3b82f6';" 
+           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'; this.style.borderColor='#e2e8f0';">
+        <div style="font-size: 2.5rem; color: #3b82f6; margin-bottom: 1rem;">✉️</div>
+        <h3 style="color: #0f172a; margin-bottom: 0.5rem;">Email</h3>
+        <a href="mailto:samruddhij1603@gmail.com" style="color: #3b82f6; text-decoration: none; font-weight: 600; transition: all 0.3s ease;">
+          samruddhij1603@gmail.com
+        </a>
+        <p style="color: #64748b; font-size: 0.9rem; margin-top: 0.8rem;">
+          For academic collaboration, project discussions, or inquiries
+        </p>
+      </div>
 
-<a href="https://www.linkedin.com/in/samruddhi-jain-678b792a4" target="_blank">
-<i class="fa-brands fa-linkedin"></i>
-</a>
+      <!-- LinkedIn Card -->
+      <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 2rem; text-align: center; transition: all 0.3s ease; cursor: pointer;" 
+           onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 12px 30px rgba(59, 130, 246, 0.15)'; this.style.borderColor='#3b82f6';" 
+           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'; this.style.borderColor='#e2e8f0';">
+        <div style="font-size: 2.5rem; color: #3b82f6; margin-bottom: 1rem;">💼</div>
+        <h3 style="color: #0f172a; margin-bottom: 0.5rem;">LinkedIn</h3>
+        <a href="https://www.linkedin.com/in/samruddhi-jain-678b792a4" target="_blank" style="color: #3b82f6; text-decoration: none; font-weight: 600; transition: all 0.3s ease;">
+          Connect with me
+        </a>
+        <p style="color: #64748b; font-size: 0.9rem; margin-top: 0.8rem;">
+          For professional networking and opportunities
+        </p>
+      </div>
 
-<a href="https://github.com/samruddhijain1" target="_blank">
-<i class="fa-brands fa-github"></i>
-</a>
+      <!-- GitHub Card -->
+      <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 2rem; text-align: center; transition: all 0.3s ease; cursor: pointer;" 
+           onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 12px 30px rgba(59, 130, 246, 0.15)'; this.style.borderColor='#3b82f6';" 
+           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'; this.style.borderColor='#e2e8f0';">
+        <div style="font-size: 2.5rem; color: #3b82f6; margin-bottom: 1rem;">💻</div>
+        <h3 style="color: #0f172a; margin-bottom: 0.5rem;">GitHub</h3>
+        <a href="https://github.com/samruddhijain1" target="_blank" style="color: #3b82f6; text-decoration: none; font-weight: 600; transition: all 0.3s ease;">
+          View my projects
+        </a>
+        <p style="color: #64748b; font-size: 0.9rem; margin-top: 0.8rem;">
+          Check out my code and contributions
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Social Icons -->
+    <div style="text-align: center; margin: 3rem 0;">
+      <h3 style="color: #0f172a; margin-bottom: 2rem;">Connect on Social Media</h3>
+      <div class="contact-icons">
+        <a href="mailto:samruddhij1603@gmail.com" class="contact-icon-link" title="Email me">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/samruddhi-jain-678b792a4" target="_blank" class="contact-icon-link" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/samruddhijain1" target="_blank" class="contact-icon-link" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Contact Information -->
+    <div class="contact-info">
+      <h2 style="color: #0f172a; margin-bottom: 2rem; font-size: 1.4rem;">Contact Information</h2>
+
+      <div class="info-item">
+        <span class="info-label">👤 Name</span>
+        <p style="color: #64748b; margin: 0;">Samruddhi Jain</p>
+      </div>
+
+      <div class="info-item">
+        <span class="info-label">📧 Email</span>
+        <a href="mailto:samruddhij1603@gmail.com" class="info-value">samruddhij1603@gmail.com</a>
+      </div>
+
+      <div class="info-item">
+        <span class="info-label">📍 Location</span>
+        <p style="color: #64748b; margin: 0;">Sendhwa, Madhya Pradesh, India</p>
+      </div>
+
+      <div class="info-item">
+        <span class="info-label">🎓 Organization</span>
+        <p style="color: #64748b; margin: 0;">MPSTME, NMIMS University</p>
+      </div>
+
+      <div class="info-item">
+        <span class="info-label">📱 Social</span>
+        <div style="display: flex; gap: 1rem; margin-top: 0.5rem;">
+          <a href="https://www.linkedin.com/in/samruddhi-jain-678b792a4" target="_blank" class="info-value" style="display: inline-flex; align-items: center; gap: 0.3rem;">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/samruddhijain1" target="_blank" class="info-value" style="display: inline-flex; align-items: center; gap: 0.3rem;">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Message Section -->
+    <div style="background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%); color: white; padding: 2.5rem; border-radius: 12px; text-align: center; margin-top: 3rem;">
+      <h2 style="margin-bottom: 1rem; color: white;">Ready to Collaborate?</h2>
+      <p style="margin-bottom: 1.5rem; opacity: 0.95;">
+        I'm always open to learning, collaboration, and new opportunities. Whether it's about internships, projects, or just having a discussion, feel free to reach out!
+      </p>
+      <a href="mailto:samruddhij1603@gmail.com" style="display: inline-block; background: white; color: #3b82f6; padding: 0.9rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s ease;"
+         onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'"
+         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'">
+        Send Me an Email →
+      </a>
+    </div>
+
+  </div>
 
 </div>
 
-
-<br><br>
-
-<h3>Thank you for visiting my website.</h3>
-
-<p>
-If you would like to connect with me for academic collaboration,
-project discussions, internship opportunities, or professional
-communication, you can reach me using the details below.
-</p>
-
-<br>
-
-<p><b>Name:</b> Samruddhi Jain</p>
-
-<p>
-<b>Email:</b>
-<a href="mailto:samruddhij1603@gmail.com">
-samruddhij1603@gmail.com
-</a>
-</p>
-
-<p><b>Location:</b> Sendhwa, Madhya Pradesh</p>
-
-<br>
-
-<p>
-You may also connect with me through LinkedIn or other professional
-platforms for networking and opportunities.
-</p>
-
-<br>
-
-<p>
-<b>LinkedIn –</b>
-<a href="https://www.linkedin.com/in/samruddhi-jain-678b792a4" target="_blank">
-http://www.linkedin.com/in/samruddhi-jain-678b792a4
-</a>
-</p>
-
-<br>
-
-<p>
-I am always open to learning, collaboration, and new experiences.
-</p>
-
-</div>
+<!-- Footer -->
+<footer style="background: #0f172a; color: white; padding: 2rem; text-align: center; margin-top: 4rem;">
+  <p style="margin: 0; opacity: 0.8;">
+    © 2024 Samruddhi Jain. All rights reserved. | 
+    <a href="index.html" style="color: #60a5fa; text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.color='white'" onmouseout="this.style.color='#60a5fa'">Back to Home</a>
+  </p>
+  <p style="margin: 0.5rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">
+    Built with <span style="color: #ef4444;">❤️</span> using HTML, CSS & JavaScript
+  </p>
+</footer>
 
 </body>
 </html>
