@@ -6,9 +6,9 @@ This portfolio showcases my academic journey, technical skills, projects, intern
 
 ## 🌐 Live Portfolio
 
-**[View My Portfolio]([https://YOUR-VERCEL-LINK.vercel.app](https://portfolio-ten-rust-58.vercel.app/))**
+**[View My Portfolio]([https://portfolio-ten-rust-58.vercel.app/])**
 
-*Replace the URL above with your actual Vercel deployment link.*
+
 
 ## 👩🏻‍💻 About Me
 
