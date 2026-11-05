@@ -6,7 +6,7 @@ This portfolio showcases my academic journey, technical skills, projects, intern
 
 ## 🌐 Live Portfolio
 
-**[View My Portfolio]([https://portfolio-ten-rust-58.vercel.app/])**
+**[View My Portfolio](https://portfolio-ten-rust-58.vercel.app/)**
 
 
 
@@ -19,10 +19,10 @@ This portfolio showcases my academic journey, technical skills, projects, intern
 
 ## 🛠️ Tech Stack
 
-- **Languages:** Python, Java, C++, SQL, JavaScript
+- **Languages:** Python, Java, C++, SQL
 - **Frontend:** HTML, CSS
 - **Analytics:** Pandas, NumPy, Power BI, Excel
-- **Tools:** Git, GitHub, VS Code, MySQL, Streamlit, Figma
+- **Tools:** Git, GitHub, VS Code, MySQL, Streamlit
 
 ## 📂 Portfolio Sections
 
