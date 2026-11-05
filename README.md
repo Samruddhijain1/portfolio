@@ -1,35 +1,57 @@
-# Samruddhi Jain — Portfolio
+# ✨ Samruddhi Jain — Personal Portfolio
 
-A responsive, single-page portfolio website with a warm cream, beige and sage colour palette (no black/dark background). Built with plain HTML, CSS and JavaScript so it is easy to edit and deploy on GitHub Pages or Vercel.
+Welcome to my personal portfolio! I'm **Samruddhi Jain**, a final-year B.Tech Computer Science student at NMIMS University, passionate about software development, data analytics and problem-solving.
 
-## Preview locally
-1. Extract the ZIP.
-2. Open `portfolio-main/index.html` in a browser.
-3. Edit the content in `index.html` and styling in `style.css`.
+This portfolio showcases my academic journey, technical skills, projects, internship experience and achievements.
 
-## Personalise before submitting
-Search `index.html` for `ADD`, `[ADD`, and `Add project repository` and replace those placeholders:
-- Replace `profile.jpg` with your preferred profile picture (keep the filename `profile.jpg`, or update the image path in the HTML).
-- Update your headline and introduction.
-- Add direct GitHub repository links for each project.
-- Confirm project descriptions and remove projects you do not want to showcase.
-- Add internship dates, responsibilities and outcomes; remove any experience entry that does not apply.
-- Enter your current CGPA, 12th percentage and 10th percentage.
-- Update contact details and social links if needed.
-- Replace `resume.pdf` with your latest resume (keep the same filename).
+## 🌐 Live Portfolio
 
-## Deploy with GitHub Pages
-1. Create or open the GitHub repository where you want this portfolio.
-2. Upload the **contents** of the `portfolio-main` folder (so `index.html` is at the repository root).
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, then Save.
-5. Wait for the Pages deployment. Your public website URL will appear in the Pages section.
+**[View My Portfolio]([https://YOUR-VERCEL-LINK.vercel.app](https://portfolio-ten-rust-58.vercel.app/))**
 
-You can also import the folder into Vercel as a static site. No build command or framework is required.
+*Replace the URL above with your actual Vercel deployment link.*
 
-## Files
-- `index.html` — all portfolio sections and editable content
-- `style.css` — colours, typography, layout and responsive styling
-- `script.js` — mobile navigation and current year
-- `profile.jpg` — current profile image (replace with yours)
-- `resume.pdf` — current resume file (replace with latest)
+## 👩🏻‍💻 About Me
+
+- 🎓 B.Tech Computer Science student at NMIMS University.
+- 📊 Interested in Data Analytics and Software Development.
+- 💡 Passionate about building practical, technology-driven solutions.
+- 🚀 Always eager to learn new technologies and explore opportunities.
+
+## 🛠️ Tech Stack
+
+- **Languages:** Python, Java, C++, SQL, JavaScript
+- **Frontend:** HTML, CSS
+- **Analytics:** Pandas, NumPy, Power BI, Excel
+- **Tools:** Git, GitHub, VS Code, MySQL, Streamlit, Figma
+
+## 📂 Portfolio Sections
+
+- **Home:** Introduction and profile.
+- **About Me:** Academic and professional introduction.
+- **Projects:** Academic and personal projects.
+- **Skills:** Technical skills and tools.
+- **Experience:** Internships and hackathon participation.
+- **Education:** Academic background and qualifications.
+- **Achievements:** Certifications, medals and accomplishments.
+- **Contact:** LinkedIn, GitHub and email.
+
+## 💻 Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts
+
+## 🚀 Deployment
+
+The portfolio is deployed using **Vercel** and connected to GitHub for automatic deployments whenever changes are pushed to the main branch.
+
+## 📬 Connect With Me
+
+- **LinkedIn:** [Samruddhi Jain](https://www.linkedin.com/in/samruddhi-jain-678b792a4)
+- **GitHub:** [Samruddhijain1](https://github.com/Samruddhijain1)
+- **Email:** samruddhij1603@gmail.com
+
+---
+
+⭐ Thank you for visiting my portfolio!
